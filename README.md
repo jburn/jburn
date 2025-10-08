@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-[![jburn's GitHub stats](https://github-readme-stats.vercel.app/api?username=jburn)](https://github.com/jburn/github-readme-stats)
+[![jburn's GitHub stats](https://github-readme-stats.vercel.app/api?username=jburn)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **jburn/jburn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
