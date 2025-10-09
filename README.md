@@ -7,6 +7,6 @@ Currently working on some personal projects.
 </a>
 
 <a href="https://github.com/jburn">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jburn&layout=compact&langs_count=6&card_width=320&theme=dark" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jburn&layout=compact&langs_count=8&card_width=320&theme=dark" />
 </a>
 
