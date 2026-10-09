@@ -20,19 +20,9 @@ I build desktop applications, Telegram bots, Python libraries, and developer too
 
 ![Git](assets/generated/git.svg) ![Ubuntu](assets/generated/ubuntu.svg) ![Ubuntu Server](assets/generated/ubuntu-server.svg) ![GitHub](assets/generated/github.svg) ![VS Code](assets/generated/vscode.svg) ![Ollama](assets/generated/ollama.svg) ![Codex](assets/generated/openai.svg) ![GIMP](assets/generated/gimp.svg)
 
-### Things I've built
-
-[![otit — Object Traversal & Inspection Toolkit](assets/generated/otit.svg)](https://github.com/jburn/otit)
-[![kyykka-editor — Desktop application for Kyykkä video editing](assets/generated/kyykka-editor.svg)](https://github.com/jburn/kyykka-editor)
-[![kalja — Finnish-focused text mutation and human-input fuzzing library](assets/generated/kalja.svg)](https://github.com/jburn/kalja)
-[![frisbeer_live_score — Telegram bot for broadcasting Frisbeer game status live](assets/generated/frisbeer_live_score.svg)](https://github.com/jburn/frisbeer_live_score)
-[![jburn.github.io — Personal portfolio and website built with Astro](assets/generated/jburn.github.io.svg)](https://github.com/jburn/jburn.github.io)
-
 ### The numbers behind the code
 
 <img src="assets/generated/languages.svg" width="720" alt="Public repository totals and aggregate language distribution by source bytes, not proficiency">
-
-<img src="assets/generated/activity.svg" width="720" alt="Monthly account-attributed commits on owned public repository default branches; current month is partial">
 
 <sub>Refreshed daily when GitHub Actions runs. Public data only; forks excluded from language, star, and commit aggregates. [Metric definitions & generator](scripts/README.md).</sub>
 
