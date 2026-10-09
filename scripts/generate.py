@@ -125,7 +125,7 @@ def render(config, data):
     out = ROOT / 'assets/generated'
     header = text(24,32,'JUHO BRUUN  /  FINLAND',12,ACCENT,700) + text(24,75,'Software engineer',32,FG,700) + text(24,108,'I enjoy creating software, graphics and learning new things.',16,MUTED) + rect(24,132,672,34) + text(38,154,'$ status  ·  building',13,ACCENT)
     write(out/'header.svg',svg(720,186,'Juho Bruun - Software engineer',header))
-    body = text(24,32,'01 / CODE COMPOSITION',12,ACCENT,700) + text(24,55,f"Public owned repositories · {data['as_of']}",12,MUTED)
+    body = text(24,32,'CODE COMPOSITION',12,ACCENT,700) + text(24,55,f"Public owned repositories · {data['as_of']}",12,MUTED)
     for i,(label,value) in enumerate([('PUBLIC REPOS',data['public_repositories']),('STARS',data['stars']),('LANGUAGES',len(data['languages']))]):
         x=24+i*224
         body += rect(x,72,208,64) + text(x+14,96,label,11,MUTED) + text(x+14,121,value,22,FG,700)
