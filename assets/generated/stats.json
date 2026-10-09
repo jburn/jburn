@@ -26,11 +26,23 @@
     "2026-07": 0,
     "2026-08": 26,
     "2026-09": 173,
-    "2026-10": 3
+    "2026-10": 5
   },
-  "commits": 233,
+  "commits": 235,
   "active_days": 37,
   "projects": [
+    {
+      "name": "frisbeer_live_score",
+      "description": "Telegram bot for broadcasting Frisbeer game status live.",
+      "html_url": "https://github.com/jburn/frisbeer_live_score",
+      "language": "Python"
+    },
+    {
+      "name": "jburn.github.io",
+      "description": "Personal portfolio/website made with Astro",
+      "html_url": "https://github.com/jburn/jburn.github.io",
+      "language": "Astro"
+    },
     {
       "name": "kalja",
       "description": "Finnish-focused text mutation and human-input fuzzing library",
@@ -48,18 +60,6 @@
       "description": "Object Traversal & Inspection Toolkit",
       "html_url": "https://github.com/jburn/otit",
       "language": "Python"
-    },
-    {
-      "name": "frisbeer_live_score",
-      "description": "Telegram bot for broadcasting Frisbeer game status live.",
-      "html_url": "https://github.com/jburn/frisbeer_live_score",
-      "language": "Python"
-    },
-    {
-      "name": "jburn.github.io",
-      "description": "Personal portfolio/website made with Astro",
-      "html_url": "https://github.com/jburn/jburn.github.io",
-      "language": "Astro"
     }
   ]
 }
