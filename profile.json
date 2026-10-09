@@ -1,0 +1,128 @@
+{
+  "username": "jburn",
+  "exclude_repositories": [],
+  "exclude_forks": true,
+  "website": "https://jburn.github.io/",
+  "linkedin": "https://www.linkedin.com/in/juhobruun/",
+  "featured": [
+    "kalja",
+    "otit",
+    "kyykka-editor"
+  ],
+  "technologies": {
+    "Languages": [
+      [
+        "Python",
+        "python",
+        "3776AB"
+      ],
+      [
+        "Java",
+        "openjdk",
+        "ED8B00"
+      ],
+      [
+        "C#",
+        "dotnet",
+        "A78BFA"
+      ],
+      [
+        "TypeScript",
+        "typescript",
+        "3178C6"
+      ],
+      [
+        "JavaScript",
+        "javascript",
+        "F7DF1E"
+      ],
+      [
+        "Swift",
+        "swift",
+        "F05138"
+      ],
+      [
+        "C++",
+        "cplusplus",
+        "659AD2"
+      ],
+      [
+        "Dart",
+        "dart",
+        "0175C2"
+      ]
+    ],
+    "Frameworks": [
+      [
+        "Astro",
+        "astro",
+        "BC52EE"
+      ],
+      [
+        "Flutter",
+        "flutter",
+        "02569B"
+      ],
+      [
+        "Robot Framework",
+        "robotframework",
+        "FFFFFF"
+      ]
+    ],
+    "Databases": [
+      [
+        "PostgreSQL",
+        "postgresql",
+        "4169E1"
+      ],
+      [
+        "SQLite",
+        "sqlite",
+        "69B7D9"
+      ]
+    ],
+    "Tools": [
+      [
+        "Git",
+        "git",
+        "F05032"
+      ],
+      [
+        "Ubuntu",
+        "ubuntu",
+        "E95420"
+      ],
+      [
+        "Ubuntu Server",
+        "ubuntu",
+        "E95420",
+        "ubuntu-server"
+      ],
+      [
+        "GitHub",
+        "github",
+        "FFFFFF"
+      ],
+      [
+        "VS Code",
+        "vscode",
+        "23A9F2"
+      ],
+      [
+        "Ollama",
+        "ollama",
+        "FFFFFF"
+      ],
+      [
+        "Codex",
+        "openai",
+        "8BE9C1"
+      ],
+      [
+        "GIMP",
+        "gimp",
+        "B7ADA1"
+      ]
+    ]
+  }
+}

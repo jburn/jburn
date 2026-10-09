@@ -1,14 +1,43 @@
-## Hello there
+<img src="assets/generated/header.svg" width="720" alt="Juho Bruun, software engineer from Finland. I build things, then collect statistics about them.">
 
-I'm a software engineer from Finland with a background in software development, test automation, research, and cybersecurity. I enjoy creating useful (and occasionally unnecessary) software for problems and interests I stumble across.
+I build desktop applications, Telegram bots, Python libraries, and developer tools. My background spans software development, test automation, cybersecurity, and research. Useful software, experiments, and the occasional unnecessary tool all have a place here.
 
-## Technologies I work with
+### The toolbox
 
-### Languages
-<p><span><img src="https://cdn.simpleicons.org/python" width="28" height="28" alt="Python"> <sub>Python</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/openjdk" width="28" height="28" alt="Java"> <sub>Java</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/dotnet" width="28" height="28" alt="C#"> <sub>C#</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/typescript" width="28" height="28" alt="TypeScript"> <sub>TypeScript</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/javascript" width="28" height="28" alt="JavaScript"> <sub>JavaScript</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/swift" width="28" height="28" alt="Swift"> <sub>Swift</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/cplusplus" width="28" height="28" alt="C++"> <sub>C++</sub></span></p>
+**Languages**
 
-### Databases
-<p> <span><img src="https://cdn.simpleicons.org/postgresql" width="28" height="28" alt="PostgreSQL"> <sub>PostgreSQL</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/sqlite" width="28" height="28" alt="SQLite"> <sub>SQLite</sub></span> </p>
+![Python](assets/generated/python.svg) ![Java](assets/generated/openjdk.svg) ![C#](assets/generated/dotnet.svg) ![TypeScript](assets/generated/typescript.svg) ![JavaScript](assets/generated/javascript.svg) ![Swift](assets/generated/swift.svg) ![C++](assets/generated/cplusplus.svg) ![Dart](assets/generated/dart.svg)
 
-### Development & tooling
-<p> <span><img src="https://cdn.simpleicons.org/git" width="28" height="28" alt="Git"> <sub>Git</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/linux" width="28" height="28" alt="Linux"> <sub>Linux</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/github" width="28" height="28" alt="GitHub"> <sub>GitHub</sub></span>&nbsp;&nbsp; <span><img src="./assets/vscode.svg" width="28" height="28" alt="Visual Studio Code"> <sub>VS Code</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/ollama" width="28" height="28" alt="Ollama"> <sub>Ollama</sub></span>&nbsp;&nbsp; <span><img src="./assets/openai.svg" width="28" height="28" alt="OpenAI Codex"> <sub>Codex</sub></span>&nbsp;&nbsp; <span><img src="https://cdn.simpleicons.org/gimp" width="28" height="28" alt="GIMP"> <sub>GIMP</sub></span> </p>
+**Frameworks**
+
+![Astro](assets/generated/astro.svg) ![Flutter](assets/generated/flutter.svg) ![Robot Framework](assets/generated/robotframework.svg)
+
+**Databases**
+
+![PostgreSQL](assets/generated/postgresql.svg) ![SQLite](assets/generated/sqlite.svg)
+
+**Tools**
+
+![Git](assets/generated/git.svg) ![Ubuntu](assets/generated/ubuntu.svg) ![Ubuntu Server](assets/generated/ubuntu-server.svg) ![GitHub](assets/generated/github.svg) ![VS Code](assets/generated/vscode.svg) ![Ollama](assets/generated/ollama.svg) ![Codex](assets/generated/openai.svg) ![GIMP](assets/generated/gimp.svg)
+
+### Things I've built
+
+[![otit — Object Traversal & Inspection Toolkit](assets/generated/otit.svg)](https://github.com/jburn/otit)
+[![kyykka-editor — Desktop application for Kyykkä video editing](assets/generated/kyykka-editor.svg)](https://github.com/jburn/kyykka-editor)
+[![kalja — Finnish-focused text mutation and human-input fuzzing library](assets/generated/kalja.svg)](https://github.com/jburn/kalja)
+
+### The numbers behind the code
+
+<img src="assets/generated/languages.svg" width="720" alt="Public repository totals and aggregate language distribution by source bytes, not proficiency">
+
+<img src="assets/generated/activity.svg" width="720" alt="Monthly account-attributed commits on owned public repository default branches; current month is partial">
+
+<sub>Refreshed daily when GitHub Actions runs. Public data only; forks excluded from language, star, and commit aggregates. [Metric definitions & generator](scripts/README.md).</sub>
+
+---
+
+[Website](https://jburn.github.io/) · [LinkedIn](https://www.linkedin.com/in/juhobruun/) · [Browse repositories](https://github.com/jburn?tab=repositories)
+
+![Counter-service requests](https://komarev.com/ghpvc/?username=jburn&color=29496b&style=flat)
+
+<sub>Counter-service events, not unique visitors or lifetime GitHub profile views. GitHub image caching, bots, and repeated views affect the count. External dependency: [Komarev](https://github.com/antonkomarev/github-profile-views-counter).</sub>

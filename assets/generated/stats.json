@@ -1,0 +1,53 @@
+{
+  "as_of": "2026-10-09",
+  "window_start": "2025-11-01",
+  "public_repositories": 10,
+  "included_repositories": 8,
+  "stars": 0,
+  "languages": {
+    "Python": 684007,
+    "C": 91410,
+    "Java": 80944,
+    "Astro": 77228,
+    "TypeScript": 23683,
+    "JavaScript": 4256,
+    "PowerShell": 3429,
+    "CSS": 3392
+  },
+  "monthly_commits": {
+    "2025-11": 0,
+    "2025-12": 0,
+    "2026-01": 0,
+    "2026-02": 12,
+    "2026-03": 11,
+    "2026-04": 7,
+    "2026-05": 1,
+    "2026-06": 0,
+    "2026-07": 0,
+    "2026-08": 26,
+    "2026-09": 173,
+    "2026-10": 0
+  },
+  "commits": 230,
+  "active_days": 36,
+  "projects": [
+    {
+      "name": "kalja",
+      "description": "Finnish-focused text mutation and human-input fuzzing library",
+      "html_url": "https://github.com/jburn/kalja",
+      "language": "Python"
+    },
+    {
+      "name": "kyykka-editor",
+      "description": "Desktop application hyperfocused on Kyykkä video editing",
+      "html_url": "https://github.com/jburn/kyykka-editor",
+      "language": "Python"
+    },
+    {
+      "name": "otit",
+      "description": "Object Traversal & Inspection Toolkit",
+      "html_url": "https://github.com/jburn/otit",
+      "language": "Python"
+    }
+  ]
+}
