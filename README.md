@@ -1,4 +1,4 @@
-<img src="assets/generated/header.svg" width="720" alt="Juho Bruun, software engineer from Finland. I build things, then collect statistics about them.">
+<img src="assets/generated/header.svg" width="720" alt="Juho Bruun, software engineer from Finland. I enjoy creating software, graphics and learning new things.">
 
 I build desktop applications, Telegram bots, Python libraries, and developer tools. My background spans software development, test automation, cybersecurity, and research. Useful software, experiments, and the occasional unnecessary tool all have a place here.
 
@@ -25,6 +25,8 @@ I build desktop applications, Telegram bots, Python libraries, and developer too
 [![otit — Object Traversal & Inspection Toolkit](assets/generated/otit.svg)](https://github.com/jburn/otit)
 [![kyykka-editor — Desktop application for Kyykkä video editing](assets/generated/kyykka-editor.svg)](https://github.com/jburn/kyykka-editor)
 [![kalja — Finnish-focused text mutation and human-input fuzzing library](assets/generated/kalja.svg)](https://github.com/jburn/kalja)
+[![frisbeer_live_score — Telegram bot for broadcasting Frisbeer game status live](assets/generated/frisbeer_live_score.svg)](https://github.com/jburn/frisbeer_live_score)
+[![jburn.github.io — Personal portfolio and website built with Astro](assets/generated/jburn.github.io.svg)](https://github.com/jburn/jburn.github.io)
 
 ### The numbers behind the code
 
