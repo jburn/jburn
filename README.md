@@ -24,7 +24,7 @@ I build desktop applications, Telegram bots, Python libraries, and developer too
 
 <img src="assets/generated/languages.svg" width="720" alt="Public repository totals and aggregate language distribution by source bytes, not proficiency">
 
-<sub>Refreshed daily when GitHub Actions runs. Public data only; forks excluded from language, star, and commit aggregates. [Metric definitions & generator](scripts/README.md).</sub>
+<sub>Refreshed weekly when GitHub Actions runs. Public data only; forks excluded from language, star, and commit aggregates. [Metric definitions & generator](scripts/README.md).</sub>
 
 ---
 
