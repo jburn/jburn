@@ -27,9 +27,9 @@ Repository and commit pagination is followed. Empty-repo HTTP 409 is handled. Tr
 
 The workflow runs daily at 05:17 UTC, manually, and on generator/config changes. Built-in `github.token` and `contents: write` suffice; no additional secret is needed. Enable Actions writes in repository settings. Protected branches may require replacing direct pushes with a PR. Scheduled workflows run on the default branch, may be delayed, and can be disabled by GitHub after public-repository inactivity. Push failures are reported; there is no force push.
 
-Identical snapshots produce identical files; only changed assets are committed. Daily as-of date changes are intentional. SVGs embed icons, use system typography, and contain no scripts, foreignObject, remote fonts, or remote images. Markdown pills wrap individually; 360px project cards and full-width charts scale on GitHub. Titles, alt text, and `assets/generated/stats.json` provide text alternatives.
+Identical snapshots produce identical files; only changed assets are committed. Daily as-of date changes are intentional. SVGs embed icons, use system typography, and contain no scripts, foreignObject, remote fonts, or remote images. Markdown pills wrap individually; the header and composition chart scale on GitHub. The generator renders only these active README components; project cards and the commit activity SVG have been retired. Titles, alt text, and `assets/generated/stats.json` provide text alternatives.
 
-Icons are vendored from [Simple Icons 16.0.0](https://www.npmjs.com/package/simple-icons/v/16.0.0), with its CC0 license in `assets/icons`. Existing VS Code and OpenAI artwork is preserved. Trademark policies still apply. Daily generation does not fetch icons or depend on a CDN.
+Icons are vendored from [Simple Icons 16.0.0](https://www.npmjs.com/package/simple-icons/v/16.0.0), with its CC0 license in `assets/icons`. Existing VS Code and OpenAI artwork is preserved in `assets/icons`; redundant top-level copies have been removed. Trademark policies still apply. Daily generation does not fetch icons or depend on a CDN.
 
 ## Counter
 

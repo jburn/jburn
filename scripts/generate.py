@@ -1,6 +1,5 @@
 """Public-only GitHub dashboard. Python standard library; no runtime dependencies."""
 import argparse
-import calendar
 from collections import Counter
 from datetime import datetime, timezone
 from html import escape
@@ -146,31 +145,11 @@ def render(config, data):
     height=240+max(1,len(shown))*29
     body+=text(24,height-24,f"{data['included_repositories']} included repos · byte counts, not proficiency",12,MUTED)
     write(out/'languages.svg',svg(720,height,'GitHub code composition by language byte count',body))
-    body=text(24,32,'02 / COMMIT ACTIVITY',12,ACCENT,700)+text(24,57,f"{data['commits']} commits · {data['active_days']} active UTC days",20,FG,700)
-    values=list(data['monthly_commits'].values()); peak=max(values,default=0)
-    for i,(month,value) in enumerate(data['monthly_commits'].items()):
-        x=28+i*56; height=110*value/peak if peak else 0
-        body+=rect(x,90,34,110,PANEL,4)
-        if height: body+=rect(x,200-height,34,height,ACCENT,4)
-        body+=text(x,82,value,11,MUTED)+text(x,222,calendar.month_abbr[int(month[5:])],11,MUTED)+text(x,238,month[2:4],10,MUTED)
-    body+=text(24,270,f"{data['window_start']} → {data['as_of']} · current month is partial",12,MUTED)+text(24,292,'Owned public repos · default branches · account-attributed commits',12,MUTED)
-    write(out/'activity.svg',svg(720,314,'Monthly authored commit activity, current month partial',body))
     for group,technologies in config['technologies'].items():
         for technology in technologies:
             label, slug, color = technology[:3]
             asset_name = technology[3] if len(technology) > 3 else slug
             write(out/(asset_name+'.svg'),badge(label,slug,color))
-    projects={p['name']:p for p in data['projects']}
-    for name in config['featured']:
-        project=projects.get(name)
-        if not project: raise ValueError(f'Featured project missing: {name}')
-        desc=project['description'] or 'No repository description provided.'
-        import textwrap
-        lines=textwrap.wrap(desc,width=43)
-        body=text(20,34,name,20,FG,700)
-        for i,line in enumerate(lines): body+=text(20,64+i*20,line,13,MUTED)
-        body+=rect(20,128,94,28)+text(32,147,project['language'] or 'Source',12,ACCENT)+text(320,147,'↗',18,ACCENT)
-        write(out/(name+'.svg'),svg(360,176,name+' — '+desc,body))
     write(out/'stats.json',json.dumps(data,indent=2,ensure_ascii=False)+'\n')
 
 
