@@ -30,6 +30,6 @@ I build desktop applications, Telegram bots, Python libraries, and developer too
 
 [Website](https://jburn.github.io/) · [LinkedIn](https://www.linkedin.com/in/juhobruun/) · [Browse repositories](https://github.com/jburn?tab=repositories)
 
-![Counter-service requests](https://komarev.com/ghpvc/?username=jburn&color=29496b&style=flat)
+![Counter-service requests](https://komarev.com/ghpvc/?username=jburn&label=counter+requests&color=29496b&style=flat)
 
 <sub>Counter-service events, not unique visitors or lifetime GitHub profile views. GitHub image caching, bots, and repeated views affect the count. External dependency: [Komarev](https://github.com/antonkomarev/github-profile-views-counter).</sub>
