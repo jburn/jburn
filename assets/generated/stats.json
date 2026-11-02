@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-26",
-  "window_start": "2025-11-01",
+  "as_of": "2026-11-02",
+  "window_start": "2025-12-01",
   "public_repositories": 10,
   "included_repositories": 8,
   "stars": 0,
@@ -8,14 +8,13 @@
     "Python": 696177,
     "C": 91410,
     "Java": 80944,
-    "Astro": 79427,
+    "Astro": 79549,
     "TypeScript": 23683,
     "JavaScript": 4256,
-    "CSS": 3790,
+    "CSS": 4103,
     "PowerShell": 3429
   },
   "monthly_commits": {
-    "2025-11": 0,
     "2025-12": 0,
     "2026-01": 0,
     "2026-02": 12,
@@ -26,10 +25,11 @@
     "2026-07": 0,
     "2026-08": 26,
     "2026-09": 174,
-    "2026-10": 17
+    "2026-10": 22,
+    "2026-11": 0
   },
-  "commits": 248,
-  "active_days": 38,
+  "commits": 253,
+  "active_days": 40,
   "projects": [
     {
       "name": "frisbeer_live_score",
