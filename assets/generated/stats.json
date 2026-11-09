@@ -1,17 +1,18 @@
 {
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-09",
   "window_start": "2025-12-01",
-  "public_repositories": 10,
-  "included_repositories": 8,
+  "public_repositories": 11,
+  "included_repositories": 9,
   "stars": 0,
   "languages": {
     "Python": 696177,
+    "HTML": 182080,
     "C": 91410,
     "Java": 80944,
     "Astro": 79549,
     "TypeScript": 23683,
-    "JavaScript": 4256,
-    "CSS": 4103,
+    "CSS": 6388,
+    "JavaScript": 4577,
     "PowerShell": 3429
   },
   "monthly_commits": {
@@ -26,10 +27,10 @@
     "2026-08": 26,
     "2026-09": 174,
     "2026-10": 22,
-    "2026-11": 0
+    "2026-11": 2
   },
-  "commits": 253,
-  "active_days": 40,
+  "commits": 255,
+  "active_days": 41,
   "projects": [
     {
       "name": "frisbeer_live_score",
